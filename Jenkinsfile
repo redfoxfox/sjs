@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Source') {
       steps {
-        git(url: 'git@github.com:redfoxfox/sjs.git')
+        git 'git@github.com:redfoxfox/sjs.git'
       }
     }
 
